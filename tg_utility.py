@@ -42,7 +42,7 @@ async def download_videos(client, channel_username):
 
 # Основна функція
 async def main():
-    channel_username = "ssternenko" #robert_magyar
+    channel_username = "ssternenko"
     async with TelegramClient('dronedtctn', api_id, api_hash) as client:
         await download_videos(client, channel_username)
 
